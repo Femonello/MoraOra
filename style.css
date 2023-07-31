@@ -1,0 +1,130 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Belleza&family=Federo&family=Italiana&family=Roboto:ital,wght@0,100;1,100&family=Viaoda+Libre&display=swap');
+
+:root{
+    
+}
+
+html, 
+body{
+    width: 100%;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #555;
+    width: 90%;
+    margin:0;
+ 
+    }
+
+.top{ /*header */
+    display:flex;
+    justify-content: space-between;
+    background-color: #162028;
+    background-image: url(imagens/topo.jpg);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: right bottom;
+    height: 32em;
+    /* height: 75vh; */
+    margin-left: 6em;
+    width: 80%;
+    
+       
+}
+
+.top-title{ /*h2 do head com nome da loja: Moda Ora*/
+    color: white;
+    font-family: 'Italiana', serif;
+    margin:0.5em 3em;
+    /* font-size: 4vh; */
+}
+.top-nav{
+    
+}
+
+.top-nav__list{
+    display: flex;
+    /* font-size: 2vh; */
+    list-style-type: none;
+    letter-spacing: 4px;
+    gap: 4em;
+    margin-right: 1em;
+}
+
+.top-nav__list a{
+    color: #425564;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+.main{ /*classe da section */
+    text-align: center;
+    line-height: 2em;
+    width: 80%;
+    margin-top: 6em;
+    margin-left: 6em;
+    
+}
+
+.main-intro__title{ /*primeiro Título h2 da section*/
+    font-family: 'Viaoda Libre', cursive;
+    font-size: 2em;
+    margin-bottom: 2em;
+}
+
+.main-modelos{ /*Div para quadros de imagens*/
+    display: flex;
+
+}
+
+.main-modelos__quadro{
+    padding: 2em;
+}
+
+.main-modelos__quadro--nome{
+    font-family: 'Viaoda Libre', cursive;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.main-modelos__quadro--desc{
+    margin:0;
+}
+
+.main-detail{
+    color: white;
+    background-color:#003d52;
+    background-image: url(imagens/bg_detalhe.png);
+    background-repeat:no-repeat;
+    background-size:auto;
+    background-position: right bottom;
+    height: 40em;
+    margin:0;
+    text-align: left;
+}
+.main-detail__title{
+    font-family: 'Viaoda Libre', cursive;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    line-height: 2em;
+    font-size: 2em;
+    padding-top: 4em;
+    margin: 0 4em 0 4em;
+}
+
+.main-detail__text{
+    margin: 0 25em 0 8em;
+}
+
+.footer{
+    text-align: center;
+    background-color: #0b171f;
+    color: #6f8597;
+    padding: 0.5em 0;
+    margin-left: 6em;
+    width: 80%;
+}
